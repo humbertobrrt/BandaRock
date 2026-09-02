@@ -1,8 +1,12 @@
-public class Baterista implements Funcao{
+public class Baterista implements Funcao {
 
     @Override
-    public void executarFuncao(){
-        System.out.println("O Baterista está tocando a bateria!");
+    public String executarFuncao() {
+        return " está improvisando na bateria!";
     }
 
+    @Override
+    public String executarFuncao(String musica) {
+        return " está quebrando tudo em " + musica + "!";
+    }
 }

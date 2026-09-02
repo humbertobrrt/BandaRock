@@ -1,5 +1,7 @@
 public interface Funcao {
 
-    void executarFuncao();
+    String executarFuncao();
+
+    String executarFuncao(String musica);
 
 }

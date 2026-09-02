@@ -1,8 +1,13 @@
-public class Guitarrista implements Funcao{
+public class Guitarrista implements Funcao {
 
     @Override
-    public void executarFuncao(){
-        System.out.println("O Guitarrista está tocando a guitarra!");
+    public String executarFuncao() {
+        return " está improvisando na guitarra!";
+    }
+
+    @Override
+    public String executarFuncao(String musica) {
+        return " está tocando o riff de " + musica + "!";
     }
 
 }

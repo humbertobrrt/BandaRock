@@ -1,9 +1,13 @@
-public class Vocalista implements Funcao  {
+public class Vocalista implements Funcao {
 
     @Override
-    public void executarFuncao(){
-        System.out.println("O Vocalista está cantando!");
+    public String executarFuncao() {
+        return " está cantarolando!";
     }
 
+    @Override
+    public String executarFuncao(String musica) {
+        return " está cantando " + musica + "!";
+    }
 
 }
