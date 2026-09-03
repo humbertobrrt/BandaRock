@@ -11,6 +11,8 @@
 
 <br>
 
+---
+
 ## 📋 Sobre o Projeto
 
 O **RockBand** é uma aplicação interativa via linha de comando (CLI) construída em Java, no ambiente de desenvolvimento Intellij IDEA onde o usuário pode gerenciar a formação de uma banda e orquestrar um show. 
@@ -48,6 +50,8 @@ Para testar o nosso código na sua máquina ou utilizá-lo como base de estudos,
 2. Abra a pasta do projeto na sua IDE de preferência.
 3. Localize o arquivo Main.java dentro da pasta src.
 4. Execute a classe Main e siga as instruções exibidas no console para montar o seu show.
+
+---
 
 👥 Desenvolvedores
 
