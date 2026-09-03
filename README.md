@@ -17,7 +17,7 @@
 
 O **RockBand** é uma aplicação interativa via linha de comando (CLI) construída em Java, no ambiente de desenvolvimento Intellij IDEA onde o usuário pode gerenciar a formação de uma banda e orquestrar um show. 
 
-O desenvolvimento deste sistema nasceu para atender a uma **proposta de atividade da Trilha de Java do Geração Caldeira**, que trazia o desafio de explicar o funcionamento de métodos e funções para a turma. Para cumprir esse requisito fugindo dos exemplos tradicionais e tornando o aprendizado mais prazeroso, nosso grupo decidiu aplicar a teoria dentro da temática de uma banda de rock. 
+O desenvolvimento deste sistema nasceu para atender a uma proposta de atividade da Trilha de Java do Geração Caldeira, que trazia o desafio de explicar o funcionamento de métodos e funções para a turma. Para cumprir esse requisito fugindo dos exemplos tradicionais e tornando o aprendizado mais prazeroso, nosso grupo decidiu aplicar a teoria dentro da temática de uma banda de rock. 
 
 O sistema foi arquitetado com foco na separação de responsabilidades, garantindo que o código não ficasse rígido. Um dos destaques da nossa entrega é a capacidade da aplicação de comparar o histórico dos integrantes e identificar automaticamente se o show atual é da formação original da banda ou se trata de uma colaboração histórica entre músicos de projetos distintos.
 
@@ -25,12 +25,12 @@ O sistema foi arquitetado com foco na separação de responsabilidades, garantin
 
 ## 🏛️ Arquitetura e POO
 
-Para garantir que o código fosse não apenas funcional, mas também um material de estudo para a turma, aplicamos os pilares da Orientação a Objetos nas decisões da arquitetura do nosso sistema como:
+Para garantir que o código fosse não apenas funcional, mas também um material de estudo para a turma, aplicamos alguns pilares da Orientação a Objetos nas decisões da arquitetura do nosso sistema, como:
 
 *   **Herança:** A classe `Musico` herda da classe base `Pessoa`. Afinal, todo músico é, antes de tudo, uma pessoa. Isso nos permitiu demonstrar uma das vantagens da utilização de heranças, o reaproveitamento de características, neste caso com o atributo nome.
-*   **Interfaces e Padrão Comportamental:** Optamos por não limitar o sistema com heranças diretas para as funções dos músicos dentro da banda. Através da interface `Funcao`, isolamos este comportamento. Exemplo: Um integrante não *é* um guitarrista, é um músico que *tem* a habilidade de tocar guitarra. Isso não só permite flexibilidade para manutenções, como também que um músico cumpra diferentes funções no futuro, caso necessário.
-*   **Polimorfismo:** Durante o fluxo de cadastro, uma mesma variável consegue assumir formas diferentes (`Vocalista`, `Guitarrista`, `Baixista` ou `Baterista`), respondendo dinamicamente à interação do usuário.
-*   **Sobrescrita e Sobrecarga de Métodos:** A sobrescrita garante que cada instrumento execute sua função de maneira única. Já a sobrecarga foi aplicada na classe `Banda`, permitindo que a apresentação ocorra de duas formas: recebendo o nome de uma música específica (show ensaiado) ou executando o método vazio (uma Jam ou improviso entre os músicos).
+*   **Interfaces e Padrão Comportamental:** Optamos por não limitar o sistema com heranças diretas para as funções dos músicos dentro de uma banda. Através da interface `Funcao`, isolamos este comportamento. Exemplo: Um integrante não *é* um guitarrista, é um músico que *tem* a habilidade de tocar guitarra. Isso não só permite flexibilidade para manutenções, como também que um músico cumpra diferentes funções no futuro, caso desejado.
+*   **Polimorfismo:** Durante o fluxo de cadastro, uma mesma variável genérica consegue assumir formas diferentes (`Vocalista`, `Guitarrista`, `Baixista` ou `Baterista`), respondendo dinamicamente à interação do usuário.
+*   **Sobrescrita e Sobrecarga de Métodos:** A sobrescrita garante que cada músico execute sua função de maneira única. Já a sobrecarga foi aplicada na classe `Banda`, permitindo que a apresentação ocorra de duas formas: recebendo o nome de uma música específica (show ensaiado) ou executando o método vazio (uma Jam ou improviso entre os músicos).
 
 ---
 
