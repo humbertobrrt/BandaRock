@@ -20,6 +20,7 @@ O **RockBand** é uma aplicação interativa via linha de comando (CLI) constru�
 O desenvolvimento deste sistema nasceu para atender a uma **proposta de atividade da Trilha de Java do Geração Caldeira**, que trazia o desafio de explicar o funcionamento de métodos e funções para a turma. Para cumprir esse requisito fugindo dos exemplos tradicionais e tornando o aprendizado mais prazeroso, nosso grupo decidiu aplicar a teoria dentro da temática de uma banda de rock. 
 
 O sistema foi arquitetado com foco na separação de responsabilidades, garantindo que o código não ficasse rígido. Um dos destaques da nossa entrega é a capacidade da aplicação de comparar o histórico dos integrantes e identificar automaticamente se o show atual é da formação original da banda ou se trata de uma colaboração histórica entre músicos de projetos distintos.
+
 ---
 
 ## 🏛️ Arquitetura e POO
