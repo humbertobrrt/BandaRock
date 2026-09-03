@@ -59,31 +59,31 @@ Para testar o nosso código na sua máquina ou utilizá-lo como base de estudos,
 <table align="center">
   <tr valign="top">
     <td align="center">
-      <img src="img/gabriel.jpg" width="180" alt="Gabriel Boanova"/><br><br>
+      <img src="img/gabriel.jpg" width="180" alt="Gabriel Boanova"/><br>
       <b>Gabriel Boanova</b><br><br>
       <a href="https://linkedin.com/in/gabriel-reyes-boanova-a32a19331/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
       <a href="https://github.com/REYezzzEnd"><img src="https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white" alt="GitHub"></a>
     </td>
     <td align="center">
-      <img src="img/gabriela.jpg" width="180" alt="Gabriela Martins"/><br><br>
+      <img src="img/gabriela.jpg" width="180" alt="Gabriela Martins"/><br>
       <b>Gabriela Martins</b><br><br>
       <a href="https://linkedin.com/in/gabrielamartinsoliveira/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
       <a href="https://github.com/gabimartoliv"><img src="https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white" alt="GitHub"></a>
     </td>
     <td align="center">
-      <img src="img/humberto.jpg" width="180" alt="Humberto Barreto"/><br><br>
+      <img src="img/humberto.jpg" width="180" alt="Humberto Barreto"/><br>
       <b>Humberto Barreto</b><br><br>
       <a href="https://linkedin.com/in/humberto-barreto-silva/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
       <a href="https://github.com/humbertobrrt"><img src="https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white" alt="GitHub"></a>
     </td>
     <td align="center">
-      <img src="img/lucas.jpg" width="180" alt="Lucas Villante"/><br><br>
+      <img src="img/lucas.jpg" width="180" alt="Lucas Villante"/><br>
       <b>Lucas Villante</b><br><br>
       <a href="https://linkedin.com/in/lucasvillante/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
       <a href="https://github.com/lucasvillante"><img src="https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white" alt="GitHub"></a>
     </td>
     <td align="center">
-      <img src="img/paulino.jpg" width="180" alt="Paulino Guimarães"/><br><br>
+      <img src="img/paulino.jpg" width="180" alt="Paulino Guimarães"/><br>
       <b>Paulino Guimarães</b><br><br>
       <a href="https://linkedin.com/in/paulinohenriquemfg/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
       <a href="https://github.com/PHMFG"><img src="https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white" alt="GitHub"></a>
